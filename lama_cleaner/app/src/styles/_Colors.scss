@@ -12,6 +12,8 @@
   --border-color-light: rgba(100, 100, 120, 0.5);
   --tooltip-bg: rgb(230, 230, 234);
   --tooltip-text-color: rgb(0, 0, 0);
+  --sky-accent: #bae6fd;
+  --sky-accent-light: #bae6fd55;
 
   --error-color: rgb(239, 68, 68);
   --success-color: rgb(16, 185, 129);
@@ -37,7 +39,7 @@
   --btn-text-color: var(--text-color);
   --btn-text-hover-color: #040404;
   --btn-border-color: rgb(100, 100, 120);
-  --btn-primary-hover-bg: var(--yellow-accent);
+  --btn-primary-hover-bg: var(--sky-accent);
   --animation-pulsing-bg: rgb(255, 255, 255, 0.5);
 
   // switch

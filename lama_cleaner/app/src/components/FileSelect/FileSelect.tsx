@@ -125,8 +125,8 @@ export default function FileSelect(props: FileSelectProps) {
         />
         <p className="file-select-message">
           {resolution === 'desktop'
-            ? 'Click here or drag an image file'
-            : 'Tap here to load your picture'}
+            ? 'こちらをクリックするか、画像ファイルをドラッグアンドドロップしてください'
+            : 'こちらをタップして画像を読み込みます'}
         </p>
       </div>
     </label>

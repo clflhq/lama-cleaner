@@ -7,17 +7,19 @@
   --page-text-color: #f9f9f9;
   --yellow-accent: #ffcc00;
   --yellow-accent-light: #ffcc0055;
-  --link-color: var(--yellow-accent);
+  --link-color: var(--sky-accent);
   --border-color: rgb(30, 30, 30);
   --border-color-light: rgba(102, 102, 102);
   --tooltip-bg: rgb(33, 33, 33);
   --tooltip-text-color: rgb(210, 210, 210);
+  --sky-accent: #bae6fd;
+  --sky-accent-light: #bae6fd55;
 
   // Editor
   --editor-toolkit-bg: rgba(0, 0, 0, 0.5);
   --editor-options-bg: rgb(33, 33, 33);
   --options-text-color: var(--page-text-color);
-  --editor-size-border-color: var(--yellow-accent);
+  --editor-size-border-color: var(--sky-accent);
   --editor-toolkit-panel-border: 1px solid rgb(100, 100, 120, 0.4);
 
   // Modal
@@ -34,8 +36,8 @@
   // Shared
   --btn-text-color: var(--text-color);
   --btn-text-hover-color: var(--page-bg);
-  --btn-border-color: var(--yellow-accent);
-  --btn-primary-hover-bg: var(--yellow-accent);
+  --btn-border-color: var(--sky-accent);
+  --btn-primary-hover-bg: var(--sky-accent);
   --animation-pulsing-bg: rgb(240, 240, 255);
 
   // switch

@@ -9,7 +9,7 @@ $half-handle-longside: math.div($drag-handle-longside, 2);
 $half-drag-bar-size: math.div($drag-bar-size, 2);
 
 .crop-border {
-  outline-color: var(--yellow-accent);
+  outline-color: var(--sky-accent);
   outline-style: dashed;
 }
 
@@ -105,12 +105,12 @@ $half-drag-bar-size: math.div($drag-bar-size, 2);
   position: absolute;
   display: block;
   content: '';
-  border: 2px solid var(--yellow-accent);
-  background-color: var(--yellow-accent-light);
+  border: 2px solid var(--sky-accent);
+  background-color: var(--sky-accent-light);
   pointer-events: auto;
 
   &:hover {
-    background-color: var(--yellow-accent);
+    background-color: var(--sky-accent);
   }
 
   &.ord-topleft {

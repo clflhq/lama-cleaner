@@ -70,7 +70,7 @@ import InteractiveSegReplaceModal from '../InteractiveSeg/ReplaceModal'
 const TOOLBAR_SIZE = 200
 const MIN_BRUSH_SIZE = 10
 const MAX_BRUSH_SIZE = 200
-const BRUSH_COLOR = '#ffcc00bb'
+const BRUSH_COLOR = '#bae6fdbb'
 
 interface Line {
   size?: number

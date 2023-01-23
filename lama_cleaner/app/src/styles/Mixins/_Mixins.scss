@@ -32,7 +32,7 @@
     border-radius: 50%;
     border: 1px solid rgb(0, 0, 0);
     z-index: 2;
-    background: var(--yellow-accent);
+    background: var(--sky-accent);
     margin-top: -0.5rem;
   }
 
@@ -48,6 +48,6 @@
   }
 
   input[type='range']::-moz-range-progress {
-    background: var(--yellow-accent);
+    background: var(--sky-accent);
   }
 }

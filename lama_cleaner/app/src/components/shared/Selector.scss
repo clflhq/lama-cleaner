@@ -18,7 +18,7 @@
   }
 
   &:hover {
-    border-color: var(--yellow-accent);
+    border-color: var(--sky-accent);
   }
 
   // &:focus-visible {
@@ -57,7 +57,7 @@
 
   &:focus {
     color: var(--btn-text-hover-color);
-    background-color: var(--yellow-accent);
+    background-color: var(--sky-accent);
   }
 }
 

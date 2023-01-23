@@ -62,7 +62,7 @@ const Header = () => {
             <Button
               icon={<FolderIcon />}
               style={{ border: 0 }}
-              toolTip="Open File Manager"
+              toolTip="ファイルマネージャーを開く"
               disabled={isInpainting}
               onClick={() => {
                 setShowFileManager(true)
@@ -77,7 +77,7 @@ const Header = () => {
               icon={<PhotoIcon />}
               style={{ border: 0, gap: 0 }}
               disabled={isInpainting}
-              toolTip="Upload image"
+              toolTip="画像をアップロードする"
             >
               <input
                 style={{ display: 'none' }}
@@ -107,7 +107,7 @@ const Header = () => {
               <Button
                 style={{ border: 0 }}
                 disabled={isInpainting}
-                toolTip="Upload custom mask"
+                toolTip="カスタムマスクをアップロードする"
               >
                 <input
                   style={{ display: 'none' }}
