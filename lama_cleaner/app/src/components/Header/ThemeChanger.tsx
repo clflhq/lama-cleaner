@@ -4,7 +4,7 @@ import { SunIcon, MoonIcon } from '@heroicons/react/24/outline'
 
 export const themeState = atom({
   key: 'themeState',
-  default: 'dark',
+  default: 'light',
 })
 
 export const ThemeChanger = () => {
