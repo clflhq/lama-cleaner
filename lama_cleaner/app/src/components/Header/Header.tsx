@@ -103,37 +103,6 @@ const Header = () => {
               alignItems: 'center',
             }}
           >
-            <label htmlFor={maskUploadElemId}>
-              <Button
-                style={{ border: 0 }}
-                disabled={isInpainting}
-                toolTip="カスタムマスクをアップロードする"
-              >
-                <input
-                  style={{ display: 'none' }}
-                  id={maskUploadElemId}
-                  name={maskUploadElemId}
-                  type="file"
-                  onClick={e => {
-                    const element = e.target as HTMLInputElement
-                    element.value = ''
-                  }}
-                  onChange={ev => {
-                    const newFile = ev.currentTarget.files?.[0]
-                    if (newFile) {
-                      setMask(newFile)
-                      console.info('Send custom mask')
-                      if (!runManually) {
-                        emitter.emit(EVENT_CUSTOM_MASK, { mask: newFile })
-                      }
-                    }
-                  }}
-                  accept="image/png, image/jpeg"
-                />
-                Mask
-              </Button>
-            </label>
-
             <PopoverPrimitive.Root open={openMaskPopover}>
               <PopoverPrimitive.Trigger
                 className="btn-primary side-panel-trigger"
@@ -173,15 +142,6 @@ const Header = () => {
         </div>
 
         {isSD && file ? <PromptInput /> : <></>}
-
-        <div className="header-icons-wrapper">
-          <CoffeeIcon />
-          <ThemeChanger />
-          <div className="header-icons">
-            <Shortcuts />
-            <SettingIcon />
-          </div>
-        </div>
       </header>
     )
   }

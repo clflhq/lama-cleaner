@@ -1452,7 +1452,7 @@ export default function Editor() {
           />
         )}
         <Slider
-          label="Brush"
+          label="ブラシ"
           min={MIN_BRUSH_SIZE}
           max={MAX_BRUSH_SIZE}
           value={brushSize}
@@ -1461,7 +1461,7 @@ export default function Editor() {
         />
         <div className="editor-toolkit-btns">
           <Button
-            toolTip="Interactive Segmentation"
+            toolTip="クリックして指定する"
             icon={<CursorArrowRaysIcon />}
             disabled={isInteractiveSeg || isInpainting || !isOriginalLoaded}
             onClick={() => {
@@ -1472,13 +1472,13 @@ export default function Editor() {
             }}
           />
           <Button
-            toolTip="Reset Zoom & Pan"
+            toolTip="実際のサイズ"
             icon={<ArrowsPointingOutIcon />}
             disabled={scale === minScale && panned === false}
             onClick={resetZoom}
           />
           <Button
-            toolTip="Undo"
+            toolTip="戻る"
             icon={
               <svg
                 width="19"
@@ -1497,7 +1497,7 @@ export default function Editor() {
             disabled={disableUndo()}
           />
           <Button
-            toolTip="Redo"
+            toolTip="進む"
             icon={
               <svg
                 width="19"
@@ -1517,7 +1517,7 @@ export default function Editor() {
             disabled={disableRedo()}
           />
           <Button
-            toolTip="Show Original"
+            toolTip="長押しで元の画像を見る"
             icon={<EyeIcon />}
             className={showOriginal ? 'eyeicon-active' : ''}
             onDown={ev => {
@@ -1538,7 +1538,7 @@ export default function Editor() {
             disabled={renders.length === 0}
           />
           <Button
-            toolTip="Save Image"
+            toolTip="画像を保存する"
             icon={<ArrowDownTrayIcon />}
             disabled={!renders.length}
             onClick={download}
