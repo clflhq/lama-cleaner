@@ -665,7 +665,10 @@ export default function Editor() {
 
   const onMouseMove = (ev: SyntheticEvent) => {
     const mouseEvent = ev.nativeEvent as MouseEvent
-    setCoords({ x: mouseEvent.pageX, y: mouseEvent.pageY })
+    setCoords({
+      x: mouseEvent.pageX,
+      y: mouseEvent.pageY,
+    })
   }
 
   const onMouseDrag = (ev: SyntheticEvent) => {
