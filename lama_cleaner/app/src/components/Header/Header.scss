@@ -11,8 +11,6 @@ header {
   backdrop-filter: blur(12px);
   border-bottom: 1px solid rgb(100, 100, 120, 0.2);
   background-color: var(--page-bg-light);
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
 }
 
 .shortcuts {
@@ -25,6 +23,7 @@ header {
   align-items: center;
   gap: 12px;
   justify-self: end;
+  margin-right: 24px;
 }
 
 .header-icons {
