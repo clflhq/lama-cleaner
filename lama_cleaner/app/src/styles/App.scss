@@ -2,11 +2,8 @@
   display: grid;
   grid-template-areas: 'main-content';
   width: 100%;
-  height: calc(100vh - 100px);
+  height: 100vh;
   position: relative;
-  border-radius: 0.5rem;
-  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
-    0 8px 10px -6px rgb(0 0 0 / 0.1);
   background-color: var(--page-bg);
   color: var(--page-text-color);
   transition-property: background-color, color;
