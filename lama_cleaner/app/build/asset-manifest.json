@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.86122e63.css",
-    "main.js": "/static/js/main.78abf0f9.js",
+    "main.js": "/static/js/main.51332a47.js",
     "static/media/WorkSans-SemiBold.ttf": "/static/media/WorkSans-SemiBold.1e98db4eb705b586728e.ttf",
     "static/media/WorkSans-Bold.ttf": "/static/media/WorkSans-Bold.2bea7a7f7d052c74da25.ttf",
     "static/media/WorkSans-Regular.ttf": "/static/media/WorkSans-Regular.bb287b894b27372d8ea7.ttf",
@@ -10,6 +10,6 @@
   },
   "entrypoints": [
     "static/css/main.86122e63.css",
-    "static/js/main.78abf0f9.js"
+    "static/js/main.51332a47.js"
   ]
 }
